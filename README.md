@@ -30,7 +30,7 @@ Ensure that Python (version 3.7 or later) is installed on your system.
   - Check the box for **"Add Python to PATH"**.
   - Install Python along with **pip**.
 
-To confirm installation:
+To confirm installation in terminal(DOS command in windows. Shell terminal in linux):
 ```bash
 python --version
 ```
