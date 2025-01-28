@@ -78,8 +78,6 @@ CUDA is required for running GPU-accelerated operations.
   - Install the CUDA Toolkit with default options.
   - Add the CUDA binary paths to your environment variables.
 
-   ```
-
 ### 8. PyTorch library (for NVIDIA. optional)
 
 - If AI-related models or tools will be used (such as LLM model fine-tuning with Ollama), install stable [PyTorch](https://pytorch.org/get-started/locally/)(11.8 version) and additional packages:
