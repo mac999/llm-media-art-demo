@@ -77,7 +77,7 @@ CUDA is required for running GPU-accelerated operations.
 
 ### 7. PyTorch library (for NVIDIA. optional)
 
-- If AI-related models or tools will be used (such as Blender integration for AI-assisted modeling), install stable [PyTorch](https://pytorch.org/get-started/locally/)(11.8 version) and additional packages:
+- If AI-related models or tools will be used (such as LLM model fine-tuning with Ollama), install stable [PyTorch](https://pytorch.org/get-started/locally/)(11.8 version) and additional packages:
    ```bash
    pip install openai
    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
