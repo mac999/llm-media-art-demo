@@ -1,6 +1,6 @@
 # Media Art Examples with Python
 This repository contains example scripts and resources for Media Art Study with LLM, focusing on creative coding and sound generation using Python. The tools covered include **p5**, **Sonic Pi (using `python-sonic`)**, and **Ollama**.
-
+This demo project is for the purpose of studying in A.DAT media art group in South Korea (2025.1). 
 ---
 
 ## Overview
