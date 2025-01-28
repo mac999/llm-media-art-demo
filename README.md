@@ -7,12 +7,14 @@ This repository contains example scripts and resources for Media Art Study with 
 
 This project is designed for students and enthusiasts exploring **Media Art** through creative coding and interactive audio-visual art. Below are the main libraries and tools used in this repository:
 
-- **p5**: A Python port of Processing, used for interactive and generative visual art.
+- **p5**: A Python port of Processing, used for interactive and generative visual art. In example, [the data driven visualization](https://medium.com/@laputa99999/creating-3d-data-visualizations-with-p5-python-7933d5b3a59f) can be developed easily.
 - **Sonic Pi (`python-sonic`)**: A Python interface to Sonic Pi for live-coding music.
 - **PyAudio**: For real-time audio processing.
 - **Ollama**: For using AI tools in interactive art projects.
 
-The repository includes examples to experiment with generative art, live music coding, and real-time audio manipulation.
+The repository includes examples to experiment with generative art, live music coding, and real-time audio manipulation.</br>
+In addition, you can find Text-to-3D model tool the below link. 
+- [Text-to-3D model](https://medium.com/@laputa99999/using-open-source-models-with-blender-for-ai-assisted-3d-modeling-comparative-study-with-openai-9848209f93b8): Using Open-Source Models with Blender for AI-Assisted 3D Modeling: Comparative Study with OpenAI GPT
 
 ---
 
