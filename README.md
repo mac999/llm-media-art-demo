@@ -35,10 +35,15 @@ To confirm installation:
 python --version
 ```
 
-### 2. Install Ollama 
+### 2. Anaconda (Optional)
+Ensure that Anaconda (version 24.0 or later) is installed on your system.
+
+- **Download Anaconda**: [Anaconda](https://docs.anaconda.com/anaconda/install/)
+
+### 3. Install Ollama 
 For examples that utilize Ollama, follow the installation instructions from the [Ollama website](https://www.ollama.com/).
 
-### 3. Blender (for AI-Assisted Modeling)
+### 4. Blender (for AI-Assisted Modeling)
 If the script or application involves Blender for 3D modeling, ensure Blender is installed.
 
 - **Download Blender**: [blender.org](https://www.blender.org/download/)
@@ -46,11 +51,11 @@ If the script or application involves Blender for 3D modeling, ensure Blender is
   - Enable the **Python Console** within Blender to run scripts directly.
   - Ensure Blender uses the same Python environment where required libraries are installed.
 
-### 4. Install Sonic Pi
+### 5. Install Sonic Pi
 - Download and install **Sonic Pi** from the [official website](https://sonic-pi.net/).
 - Ensure that Sonic Pi is running when using `python-sonic` for sound generation.
 
-### 5. NVIDIA Drivers (for Ollama. optional)
+### 6. NVIDIA Drivers (for Ollama. optional)
 For GPU-accelerated tasks, you need to install the correct NVIDIA drivers for your GPU.
 
 - **Download NVIDIA Drivers**: [NVIDIA Driver Downloads](https://www.nvidia.com/Download/index.aspx)
@@ -64,7 +69,7 @@ To confirm installation:
 nvidia-smi
 ```
 
-### 6. CUDA Toolkit (for NVIDIA. optional)
+### 7. CUDA Toolkit (for NVIDIA. optional)
 CUDA is required for running GPU-accelerated operations.
 
 - **Download CUDA Toolkit**: [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
@@ -75,7 +80,7 @@ CUDA is required for running GPU-accelerated operations.
 
    ```
 
-### 7. PyTorch library (for NVIDIA. optional)
+### 8. PyTorch library (for NVIDIA. optional)
 
 - If AI-related models or tools will be used (such as LLM model fine-tuning with Ollama), install stable [PyTorch](https://pytorch.org/get-started/locally/)(11.8 version) and additional packages:
    ```bash
@@ -83,7 +88,7 @@ CUDA is required for running GPU-accelerated operations.
    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    ```
 
-### 8. Install Python Packages
+### 9. Install Python Packages
 Run the following command to install the required libraries:
 
 ```bash
