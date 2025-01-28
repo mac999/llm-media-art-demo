@@ -73,7 +73,7 @@ run()
 ```
 
 ### 3. PyAudio Real-Time Example
-Process audio streams in real-time (see the relevant script for details).
+Process audio streams in real-time [(see the relevant documents for details)](https://people.csail.mit.edu/hubert/pyaudio/).
 
 ---
 
@@ -87,11 +87,9 @@ Process audio streams in real-time (see the relevant script for details).
 
 2. Run the desired example:
    ```bash
-   python example_sonic.py  # Example using python-sonic
-   python example_p5.py     # Example using p5
+   python psonic_music.py  # Example using python-sonic
+   python p5_con3d.py     # Example using p5
    ```
-
-3. Ensure Sonic Pi is running for `python-sonic` examples.
 
 ---
 
