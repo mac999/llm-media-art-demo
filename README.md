@@ -7,7 +7,7 @@ In reference, this is for the purpose of studying in A.DAT media art group, Sout
 
 This project is designed for students and enthusiasts exploring **Media Art** through creative coding and interactive audio-visual art. Below are the main libraries and tools used in this repository:
 
-- **p5**: A Python port of Processing, used for interactive and generative visual art. In example, [the data driven visualization](https://medium.com/@laputa99999/creating-3d-data-visualizations-with-p5-python-7933d5b3a59f) can be developed easily.
+- **p5**: A Python port of Processing, used for interactive and generative visual art. In example, [Data driven 3D model visualization](https://medium.com/@laputa99999/creating-3d-data-visualizations-with-p5-python-7933d5b3a59f) can be developed easily.
 - **Sonic Pi (`python-sonic`)**: A Python interface to Sonic Pi for live-coding music.
 - **PyAudio**: For real-time audio processing.
 - **Ollama**: For using AI tools in interactive art projects. You should install NVIDIA cuda for run it. 
