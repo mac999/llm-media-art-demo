@@ -22,10 +22,23 @@ In addition, you can find Text-to-3D model tool the below link.
 
 Before running the examples, ensure you have Python 3.8 or higher installed. Follow the instructions below to set up your environment:
 
-### 1. Install Ollama 
+### 1. Python
+Ensure that Python (version 3.7 or later) is installed on your system.
+
+- **Download Python**: [python.org](https://www.python.org/)
+- During installation:
+  - Check the box for **"Add Python to PATH"**.
+  - Install Python along with **pip**.
+
+To confirm installation:
+```bash
+python --version
+```
+
+### 2. Install Ollama 
 For examples that utilize Ollama, follow the installation instructions from the [Ollama website](https://www.ollama.com/).
 
-### 2. Blender (for AI-Assisted Modeling)
+### 3. Blender (for AI-Assisted Modeling)
 If the script or application involves Blender for 3D modeling, ensure Blender is installed.
 
 - **Download Blender**: [blender.org](https://www.blender.org/download/)
@@ -33,11 +46,11 @@ If the script or application involves Blender for 3D modeling, ensure Blender is
   - Enable the **Python Console** within Blender to run scripts directly.
   - Ensure Blender uses the same Python environment where required libraries are installed.
 
-### 3. Install Sonic Pi
+### 4. Install Sonic Pi
 - Download and install **Sonic Pi** from the [official website](https://sonic-pi.net/).
 - Ensure that Sonic Pi is running when using `python-sonic` for sound generation.
 
-### 4. NVIDIA Drivers (for Ollama. optional)
+### 5. NVIDIA Drivers (for Ollama. optional)
 For GPU-accelerated tasks, you need to install the correct NVIDIA drivers for your GPU.
 
 - **Download NVIDIA Drivers**: [NVIDIA Driver Downloads](https://www.nvidia.com/Download/index.aspx)
@@ -51,7 +64,7 @@ To confirm installation:
 nvidia-smi
 ```
 
-### 5. CUDA Toolkit (for NVIDIA. optional)
+### 6. CUDA Toolkit (for NVIDIA. optional)
 CUDA is required for running GPU-accelerated operations.
 
 - **Download CUDA Toolkit**: [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
@@ -62,7 +75,7 @@ CUDA is required for running GPU-accelerated operations.
 
    ```
 
-### 6. PyTorch library (for NVIDIA. optional)
+### 7. PyTorch library (for NVIDIA. optional)
 
 - If AI-related models or tools will be used (such as Blender integration for AI-assisted modeling), install additional packages:
    ```bash
@@ -70,7 +83,7 @@ CUDA is required for running GPU-accelerated operations.
    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    ```
 
-### 7. Install Python Packages
+### 8. Install Python Packages
 Run the following command to install the required libraries:
 
 ```bash
