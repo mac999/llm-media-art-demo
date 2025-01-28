@@ -10,7 +10,7 @@ This project is designed for students and enthusiasts exploring **Media Art** th
 - **p5**: A Python port of Processing, used for interactive and generative visual art. In example, [the data driven visualization](https://medium.com/@laputa99999/creating-3d-data-visualizations-with-p5-python-7933d5b3a59f) can be developed easily.
 - **Sonic Pi (`python-sonic`)**: A Python interface to Sonic Pi for live-coding music.
 - **PyAudio**: For real-time audio processing.
-- **Ollama**: For using AI tools in interactive art projects.
+- **Ollama**: For using AI tools in interactive art projects. You should install NVIDIA cuda for run it. 
 
 The repository includes examples to experiment with generative art, live music coding, and real-time audio manipulation.</br>
 In addition, you can find Text-to-3D model tool the below link. 
@@ -18,45 +18,69 @@ In addition, you can find Text-to-3D model tool the below link.
 
 ---
 
-## Installation
+## Preparation and Installation
 
 Before running the examples, ensure you have Python 3.8 or higher installed. Follow the instructions below to set up your environment:
 
-### 1. Install Python Packages
-Run the following command to install the required libraries:
+### 1. Install Ollama 
+For examples that utilize Ollama, follow the installation instructions from the [Ollama website](https://www.ollama.com/).
 
-```bash
-pip install pytest python-sonic p5 pyaudio
-```
+### 2. Blender (for AI-Assisted Modeling)
+If the script or application involves Blender for 3D modeling, ensure Blender is installed.
 
-### 2. Install Sonic Pi
+- **Download Blender**: [blender.org](https://www.blender.org/download/)
+- After installation:
+  - Enable the **Python Console** within Blender to run scripts directly.
+  - Ensure Blender uses the same Python environment where required libraries are installed.
+
+### 3. Install Sonic Pi
 - Download and install **Sonic Pi** from the [official website](https://sonic-pi.net/).
 - Ensure that Sonic Pi is running when using `python-sonic` for sound generation.
 
-### 3. Install Ollama (Optional)
-For examples that utilize Ollama, follow the installation instructions from the [Ollama website](https://www.ollama.com/).
+### 4. NVIDIA Drivers (for Ollama. optional)
+For GPU-accelerated tasks, you need to install the correct NVIDIA drivers for your GPU.
 
+- **Download NVIDIA Drivers**: [NVIDIA Driver Downloads](https://www.nvidia.com/Download/index.aspx)
+- **Steps**:
+  1. Identify your GPU model using the NVIDIA Control Panel or the `nvidia-smi` command in the terminal.
+  2. Download the latest driver for your GPU model.
+  3. Install the driver and reboot your system.
+
+To confirm installation:
+```bash
+nvidia-smi
+```
+
+### 5. CUDA Toolkit (for NVIDIA. optional)
+CUDA is required for running GPU-accelerated operations.
+
+- **Download CUDA Toolkit**: [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
+- During installation:
+  - Match the CUDA version with your NVIDIA driver and GPU model. Refer to the compatibility chart on the download page.
+  - Install the CUDA Toolkit with default options.
+  - Add the CUDA binary paths to your environment variables.
+
+   ```
+
+### 6. PyTorch library (for NVIDIA. optional)
+
+- If AI-related models or tools will be used (such as Blender integration for AI-assisted modeling), install additional packages:
+   ```bash
+   pip install openai
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+   ```
+
+### 7. Install Python Packages
+Run the following command to install the required libraries:
+
+```bash
+pip install ollama openai pytest python-sonic p5 pyaudio pandas numpy 
+```
 ---
 
 ## Examples
 
-### 1. Sonic Pi Example
-Create simple melodies using `python-sonic`:
-
-```python
-from psonic import *
-
-set_server_parameter_from_log("127.0.0.1")  # Connect to Sonic Pi server
-run("play 60")  # Play middle C (MIDI 60)
-
-play(C5)
-sleep(0.5)
-play(E5)
-sleep(0.5)
-play(G5)
-```
-
-### 2. p5 Visual Example
+### 1. p5 Visual Example
 Generate interactive art using `p5`:
 
 ```python
@@ -70,6 +94,22 @@ def draw():
     ellipse((mouse_x, mouse_y), 50, 50)
 
 run()
+```
+
+### 2. Sonic Pi Example
+Create simple melodies using `python-sonic`:
+
+```python
+from psonic import *
+
+set_server_parameter_from_log("127.0.0.1")  # Connect to Sonic Pi server
+run("play 60")  # Play middle C (MIDI 60)
+
+play(C5)
+sleep(0.5)
+play(E5)
+sleep(0.5)
+play(G5)
 ```
 
 ### 3. PyAudio Real-Time Example
@@ -87,8 +127,37 @@ Process audio streams in real-time [(see the relevant documents for details)](ht
 
 2. Run the desired example:
    ```bash
-   python psonic_music.py  # Example using python-sonic
    python p5_con3d.py     # Example using p5
+   python psonic_music.py  # Example using python-sonic
+   ```
+---
+
+## **System Environment Checks**
+
+After completing the installations, verify that the environment is set up correctly:
+
+1. **Check Python Version**:
+   ```bash
+   python --version
+   ```
+
+2. **Verify NVIDIA Drivers**:
+   ```bash
+   nvidia-smi
+   ```
+
+3. **Confirm CUDA Version**:
+   ```bash
+   nvcc --version
+   ```
+
+4. **Test Python Libraries**:
+   Create a test script and import the installed libraries:
+   ```python
+   import p5
+   import pandas as pd
+   import numpy as np
+   print("Libraries are installed successfully!")
    ```
 
 ---
