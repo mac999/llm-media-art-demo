@@ -92,7 +92,8 @@ CUDA is required for running GPU-accelerated operations.
 Run the following command to install the required libraries:
 
 ```bash
-pip install ollama openai pytest python-sonic p5 pyaudio pandas numpy 
+pip install pytest python-sonic p5 pyaudio pandas numpy
+pip install ollama openai transformers huggingface_hub  
 ```
 ---
 
