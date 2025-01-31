@@ -8,7 +8,7 @@ In reference, this is for the purpose of studying in A.DAT media art group, Sout
 This project is designed for students and enthusiasts exploring **Media Art** through creative coding and interactive audio-visual art. Below are the main libraries and tools used in this repository:
 
 - **p5**: A Python port of Processing, used for interactive and generative visual art. In example, [Data driven 3D model visualization](https://medium.com/@laputa99999/creating-3d-data-visualizations-with-p5-python-7933d5b3a59f) can be developed easily.
-- **Blender**: LLM-based Graphic Modeling using Blender. In example, [Blender LLM Addin code](https://medium.com/@laputa99999/using-open-source-models-with-blender-for-ai-assisted-3d-modeling-comparative-study-with-openai-9848209f93b8)
+- **Blender**: LLM-based Graphic Modeling using Blender. In example, [Blender LLM Addin blog](https://medium.com/@laputa99999/using-open-source-models-with-blender-for-ai-assisted-3d-modeling-comparative-study-with-openai-9848209f93b8)
 - **Arduino**: LLM-based Arduino Coding. In example, [Arduino programming using LLM](https://neural-maze.github.io/blog/posts/202405-crewai-ollama-arduino/)
 - **Sonic Pi (`python-sonic`)**: A Python interface to Sonic Pi for live-coding music.
 - **PyAudio**: For real-time audio processing.
@@ -17,7 +17,7 @@ This project is designed for students and enthusiasts exploring **Media Art** th
 
 The repository includes examples to experiment with generative art, live music coding, and real-time audio manipulation.</br>
 In addition, you can find Text-to-3D model tool the below link. 
-- [Text-to-3D model](https://medium.com/@laputa99999/using-open-source-models-with-blender-for-ai-assisted-3d-modeling-comparative-study-with-openai-9848209f93b8): Using Open-Source Models with Blender for AI-Assisted 3D Modeling: Comparative Study with OpenAI GPT
+- [Text-to-3D model code](https://github.com/mac999/blender-llm-addin): Using Open-Source Models with Blender for AI-Assisted 3D Modeling: Comparative Study with OpenAI GPT
 
 ---
 
