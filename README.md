@@ -1,6 +1,6 @@
 ## Media Art Examples with Python
 ---
-This repository contains example scripts and resources for Media Art Study with LLM, focusing on creative coding and sound generation using Python. The tools covered include **p5**, **Sonic Pi (using `python-sonic`)**, and **Ollama**.
+This repository contains example scripts and resources for Media Art Study with LLM, focusing on creative coding, modeling, sound generation and physical computing using Python, LLM. The tools covered include **p5**, **Sonic Pi (using `python-sonic`)**, **Blender**, **Arduino** and **Ollama**.
 In reference, this is for the purpose of studying in A.DAT media art group, South Korea (2025.1). 
 
 ## Overview
@@ -8,9 +8,12 @@ In reference, this is for the purpose of studying in A.DAT media art group, Sout
 This project is designed for students and enthusiasts exploring **Media Art** through creative coding and interactive audio-visual art. Below are the main libraries and tools used in this repository:
 
 - **p5**: A Python port of Processing, used for interactive and generative visual art. In example, [Data driven 3D model visualization](https://medium.com/@laputa99999/creating-3d-data-visualizations-with-p5-python-7933d5b3a59f) can be developed easily.
+- **Blender**: LLM-based Graphic Modeling using Blender. In example, [Blender LLM Addin source code](https://github.com/mac999/blender-llm-addin)
+- **Arduino**: LLM-based Arduino Coding. In example, [Arduino programming using LLM](https://neural-maze.github.io/blog/posts/202405-crewai-ollama-arduino/)
 - **Sonic Pi (`python-sonic`)**: A Python interface to Sonic Pi for live-coding music.
 - **PyAudio**: For real-time audio processing.
-- **Ollama**: For using AI tools in interactive art projects. You should install NVIDIA cuda for run it. 
+- **Ollama**: For using AI tools in interactive art projects. You need to install NVIDIA cuda for run it.
+- **ROS(Robot Operation System)**: LLM-based ROS coding. In example, [ROS-LLM[(https://github.com/Auromix/ROS-LLM/tree/ros2-humble)
 
 The repository includes examples to experiment with generative art, live music coding, and real-time audio manipulation.</br>
 In addition, you can find Text-to-3D model tool the below link. 
