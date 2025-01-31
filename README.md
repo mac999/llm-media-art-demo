@@ -22,7 +22,12 @@ In addition, you can find Text-to-3D model tool the below link.
 
 Before running the examples, ensure you have Python 3.8 or higher installed. Follow the instructions below to set up your environment:
 
-### 1. Python
+### 1. OpenAI, Huggingface Account 
+Make Accounts for OpenAI, Huggingface
+- Sign up [OpenAI API](https://openai.com/index/openai-api/) to develop ChatGPT-based application
+- Sign up [Huggingface](https://huggingface.co/) to develop Open source LLM-base application
+
+### 2. Python
 Ensure that Python (version 3.7 or later) is installed on your system.
 
 - **Download Python**: [python.org](https://www.python.org/)
@@ -35,15 +40,15 @@ To confirm installation in terminal(DOS command in windows. Shell terminal in li
 python --version
 ```
 
-### 2. Anaconda (Optional)
+### 3. Anaconda (Optional)
 Ensure that Anaconda (version 24.0 or later) is installed on your system.
 
 - **Download Anaconda**: [Anaconda](https://docs.anaconda.com/anaconda/install/)
 
-### 3. Install Ollama 
+### 4. Install Ollama 
 For examples that utilize Ollama, follow the installation instructions from the [Ollama website](https://www.ollama.com/).
 
-### 4. Blender (for AI-Assisted Modeling)
+### 5. Blender (for AI-Assisted Modeling)
 If the script or application involves Blender for 3D modeling, ensure Blender is installed.
 
 - **Download Blender**: [blender.org](https://www.blender.org/download/)
@@ -51,11 +56,11 @@ If the script or application involves Blender for 3D modeling, ensure Blender is
   - Enable the **Python Console** within Blender to run scripts directly.
   - Ensure Blender uses the same Python environment where required libraries are installed.
 
-### 5. Install Sonic Pi
+### 6. Install Sonic Pi
 - Download and install **Sonic Pi** from the [official website](https://sonic-pi.net/).
 - Ensure that Sonic Pi is running when using `python-sonic` for sound generation.
 
-### 6. NVIDIA Drivers (for Ollama. optional)
+### 7. NVIDIA Drivers (for Ollama. optional)
 For GPU-accelerated tasks, you need to install the correct NVIDIA drivers for your GPU.
 
 - **Download NVIDIA Drivers**: [NVIDIA Driver Downloads](https://www.nvidia.com/Download/index.aspx)
@@ -69,7 +74,7 @@ To confirm installation:
 nvidia-smi
 ```
 
-### 7. CUDA Toolkit (for NVIDIA. optional)
+### 8. CUDA Toolkit (for NVIDIA. optional)
 CUDA is required for running GPU-accelerated operations.
 
 - **Download CUDA Toolkit**: [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
@@ -78,7 +83,7 @@ CUDA is required for running GPU-accelerated operations.
   - Install the CUDA Toolkit with default options.
   - Add the CUDA binary paths to your environment variables.
 
-### 8. PyTorch library (for NVIDIA. optional)
+### 9. PyTorch library (for NVIDIA. optional)
 
 - If AI-related models or tools will be used (such as LLM model fine-tuning with Ollama), install stable [PyTorch](https://pytorch.org/get-started/locally/)(11.8 version) and additional packages:
    ```bash
@@ -86,7 +91,7 @@ CUDA is required for running GPU-accelerated operations.
    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    ```
 
-### 9. Install Python Packages
+### 10. Install Python Packages
 Run the following command to install the required libraries:
 
 ```bash
@@ -94,6 +99,10 @@ pip install pytest python-sonic p5 pyaudio pandas numpy
 pip install ollama openai transformers huggingface_hub  
 ```
 ---
+
+### 11. Install sublime and vscode (Optional)
+Install [Sublime](https://www.sublimetext.com/) for editor</br>
+Install [vscode](https://code.visualstudio.com/download) for debuging</br>
 
 ## Examples
 
