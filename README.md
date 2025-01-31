@@ -13,6 +13,7 @@ This project is designed for students and enthusiasts exploring **Media Art** th
 - **Sonic Pi (`python-sonic`)**: A Python interface to Sonic Pi for live-coding music.
 - **PyAudio**: For real-time audio processing.
 - **Ollama**: For using AI tools in interactive art projects. You need to install NVIDIA cuda for run it.
+- **Huggingface**: For uisng LLM, Stable Diffusion-based model, You need to sign up Huggingface. In example, [Single Image-to-3D model](https://huggingface.co/spaces/stabilityai/stable-point-aware-3d)
 - **ROS(Robot Operation System)**: LLM-based ROS coding. In example, [ROS-LLM](https://github.com/Auromix/ROS-LLM/tree/ros2-humble)
 
 The repository includes examples to experiment with generative art, live music coding, and real-time audio manipulation.</br>
