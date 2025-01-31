@@ -20,12 +20,13 @@ In addition, you can find Text-to-3D model tool the below link.
 
 ## Preparation and Installation
 
-Before running the examples, ensure you have Python 3.8 or higher installed. Follow the instructions below to set up your environment:
+Before running the examples, ensure you have Python 3.8 or higher installed. Some tool or library use NVIDIA GPU, so if you want to use it, prepare notebook computer with NVIDIA GPU(recommend 8GB. minimum 4GB)
+Follow the instructions below to set up your environment:
 
-### 1. OpenAI, Huggingface Account 
+### 1. Huggingface, OpenAI (Optinnal) Account 
 Make Accounts for OpenAI, Huggingface
-- Sign up [OpenAI API](https://openai.com/index/openai-api/) to develop ChatGPT-based application
 - Sign up [Huggingface](https://huggingface.co/) to develop Open source LLM-base application
+- Sign up [OpenAI API](https://openai.com/index/openai-api/) to develop ChatGPT-based application
 
 ### 2. Python
 Ensure that Python (version 3.7 or later) is installed on your system.
