@@ -2,7 +2,7 @@
 ---
 This repository contains example scripts and resources for Media Art Study with LLM, focusing on creative coding, modeling, sound generation and physical computing using Python, LLM. The tools covered include **p5**, **Sonic Pi (using `python-sonic`)**, **Blender**, **Arduino** and **Ollama**.
 In reference, this is for the purpose of studying in A.DAT media art group, South Korea (2025.1). 
-
+<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*3kNBB0E4xDwKiC1SQcYbhA.png"><br>Prompt: Create sphere and cube around the sphere</br></img>
 ## Overview
 
 This project is designed for students and enthusiasts exploring **Media Art** through creative coding and interactive audio-visual art. Below are the main libraries and tools used in this repository:
