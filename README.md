@@ -106,8 +106,8 @@ pip install ollama openai transformers huggingface_hub
 ---
 
 ### 11. Install sublime and vscode (Optional)
-Install [Sublime](https://www.sublimetext.com/) for editor</br>
-Install [vscode](https://code.visualstudio.com/download) for debuging</br>
+Install [Sublime](https://www.sublimetext.com/) for editing source code</br>
+Install [vscode](https://code.visualstudio.com/download) for debuging code</br>
 
 ## Examples
 
