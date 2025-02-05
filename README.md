@@ -150,6 +150,8 @@ Process audio streams in real-time [(see the relevant documents for details)](ht
 
 ## Usage
 
+Before clone this source code, you need to install [Github CLI (Korea version)](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%84%A4%EC%B9%98). ([Github CLI (English)](https://github.com/git-guides/install-git))
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/media-art-examples.git
