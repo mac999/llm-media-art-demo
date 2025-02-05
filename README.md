@@ -154,8 +154,8 @@ Before clone this source code, you need to install [Github CLI (Korea version)](
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/media-art-examples.git
-   cd media-art-examples
+   git clone https://github.com/mac999/llm-media-art-demo.git
+   cd llm-media-art-demo
    ```
 
 2. Run the desired example:
