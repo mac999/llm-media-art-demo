@@ -30,7 +30,7 @@ Follow the instructions below to set up your environment:
 ### 1. Huggingface, OpenAI (Optinnal) Account 
 Make Accounts for OpenAI, Huggingface
 - Sign up [Huggingface](https://huggingface.co/) to develop Open source LLM-base application
-- Sign up [OpenAI API](https://openai.com/index/openai-api/) to develop ChatGPT-based application
+- Sign up [OpenAI API](https://platform.openai.com/) to develop ChatGPT-based application
 
 ### 2. Python
 Ensure that Python (version 3.7 or later) is installed on your system.
