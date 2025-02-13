@@ -98,10 +98,14 @@ CUDA is required for running GPU-accelerated operations.
 
 ### 10. Install Python Packages
 Run the following command to install the required libraries:
-
 ```bash
-pip install pytest python-sonic p5 pyaudio pandas numpy
-pip install ollama openai transformers huggingface_hub  
+pip install pygame pytest python-sonic pyaudio pandas numpy
+pip install ollama openai transformers huggingface_hub
+```
+
+p5 can be executed under Python version 3.11 (Refer to https://github.com/p5py/p5/issues/469)  
+```bash
+pip install p5
 ```
 ---
 
