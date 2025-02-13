@@ -182,8 +182,6 @@ MARGIN = 5
  
 grid = []
 for row in range(10):
-    # Add an empty array that will hold each cell
-    # in this row
     grid.append([])
     for column in range(10):
         grid[row].append(0)  # Append a cell
