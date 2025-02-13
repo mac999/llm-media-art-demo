@@ -113,6 +113,7 @@ pip install p5
 Install [Sublime](https://www.sublimetext.com/) for editing source code</br>
 Install [vscode](https://code.visualstudio.com/download) for debuging code. Please refer to how to [install vscode](https://www.youtube.com/watch?v=vesxpfOAOCw).</br>
 
+---
 
 ## Usage
 
@@ -131,6 +132,7 @@ Before clone this source code, you need to install [Github CLI (Korea version)](
    ```
 ---
 
+---
 
 ## **System Environment Checks**
 
