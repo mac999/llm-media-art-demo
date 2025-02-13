@@ -34,7 +34,7 @@ Make Accounts for OpenAI, Huggingface
 - Sign up [OpenAI API](https://platform.openai.com/) to develop ChatGPT-based application (*Note: don't check auto-subscription option)
 
 ### 2. Python
-Ensure that Python (version 3.7 or later) is installed on your system.
+Ensure that Python (version 3.7 or later) is installed on your system. About macbook, please refer to [how to install python on mac](https://www.youtube.com/watch?v=u4xUUBTER4I).
 
 - **Download Python**: [python.org](https://www.python.org/)
 - During installation:
