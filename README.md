@@ -1,17 +1,18 @@
 ## Media Art Examples with Python
 ---
-This repository contains AI tool installation link, example code and resources for Media Art Study with LLM, focusing on creative coding, modeling, sound generation and physical computing using Python, LLM. The tools covered include **p5**, **Sonic Pi (using `python-sonic`)**, **Blender**, **Arduino** and **Ollama**.
+This repository contains AI tool installation link, example code and resources for Media Art Study with LLM, focusing on creative coding, modeling, sound generation and physical computing using Python, LLM. The tools covered include **pygame**, **Sonic Pi (using `python-sonic`)**, **p5**, **Blender**, **Arduino** and **Ollama**.
 In reference, this is for the purpose of studying in A.DAT media art group, South Korea (2025.1). A.DAT is open media art group from 2014 and focuses on how to represent social message using emerging tech like Gen AI, Physical Computing, LLM, Sensor based on creative artist. </br>
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*3kNBB0E4xDwKiC1SQcYbhA.png"><br>Prompt: Create sphere and cube around the sphere</br></img>
 ## Overview
 
 This project is designed for students and enthusiasts exploring **Media Art** through creative coding and interactive audio-visual art. Below are the main libraries and tools used in this repository:
 
-- **p5**: A Python port of Processing, used for interactive and generative visual art. In example, [Data driven 3D model visualization](https://medium.com/@laputa99999/creating-3d-data-visualizations-with-p5-python-7933d5b3a59f) can be developed easily.
+- **pygame**: Pygame is a Python library designed for creating video games. It provides tools and functionalities for handling graphics, sound, and user input, making it easy to develop 2D/3D games or interactive applications. It’s beginner-friendly and works on multiple platforms. [pygame](http://programarcadegames.com/index.php?chapter=example_code).
 - **Blender**: LLM-based Graphic Modeling using Blender. In example, [Blender LLM Addin blog](https://medium.com/@laputa99999/using-open-source-models-with-blender-for-ai-assisted-3d-modeling-comparative-study-with-openai-9848209f93b8)
 - **Arduino**: LLM-based Arduino Coding. In example, [Arduino programming using LLM](https://neural-maze.github.io/blog/posts/202405-crewai-ollama-arduino/)
 - **Sonic Pi (`python-sonic`)**: A Python interface to Sonic Pi for live-coding music.
 - **PyAudio**: For real-time audio processing.
+- **p5**: A Python port of Processing, used for interactive and generative visual art. In example, [Data driven 3D model visualization](https://medium.com/@laputa99999/creating-3d-data-visualizations-with-p5-python-7933d5b3a59f) can be developed easily.
 - **Ollama**: For using AI tools in interactive art projects. You need to install NVIDIA cuda for run it.
 - **Huggingface**: For uisng LLM, Stable Diffusion-based model, You need to sign up Huggingface. In example, [Single Image-to-3D model](https://huggingface.co/spaces/stabilityai/stable-point-aware-3d)
 - **ROS(Robot Operation System)**: LLM-based ROS coding. In example, [ROS-LLM](https://github.com/Auromix/ROS-LLM/tree/ros2-humble)
