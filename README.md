@@ -269,6 +269,7 @@ run()
 ## Reference
 - [Python과 node.js기반 데이터 분석 및 가시화](https://www.slideshare.net/slideshow/python-nodejs/252348474?from_search=2)
 - [NVIDIA cuda programming, open source and AI](https://www.slideshare.net/slideshow/nvidia-cuda-programming-open-source-and-ai/270372806?from_search=6)
+- [Docker 에서 Ollama, ComfyUI][https://www.youtube.com/watch?v=IxxOMLkcYNY]
 
 ## License
 
