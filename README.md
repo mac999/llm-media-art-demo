@@ -270,7 +270,9 @@ To test Arduino agent powered by GPT or Ollama, run below.
 ```bash
 python arduino_gpt.py
 ```
-
+The parameters are 
+- prompt: prompt for arduino code generation
+- port: arduino port for uploading the generated code.
 ---
 
 ## Reference
