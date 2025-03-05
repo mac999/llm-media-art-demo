@@ -4,7 +4,7 @@
 # email: laputa99999@gmail.com
 # version: 0.1
 # 
-import os, json, subprocess, sys, time, shutil, re, subprocess, textwrap
+import os, json, subprocess, sys, time, shutil, re, subprocess, textwrap, argparse
 import openai
 from ollama import chat
 from ollama import ChatResponse
@@ -81,9 +81,14 @@ def send_code(code, port='COM4'):
 	except subprocess.CalledProcessError as e:
 		return f"Error uploading code: {e}"
 
-def test():
-    code = generate_code("loop led13 on, off with 1 second repeatly")
-    send_code(code)
+def main():
+    parser = argparse.ArgumentParser(description='Generate and upload Arduino code from natural language input.')
+    parser.add_argument('--prompt', type=str, default='loop led13 on, off with 1 second repeatly', help='The prompt to generate Arduino code.')
+    parser.add_argument('--port', type=str, default='COM4', help='The port to upload the Arduino code.')
+    args = parser.parse_args()
+
+    code = generate_code(args.prompt)
+    send_code(code, args.port)
 
 if __name__ == "__main__":
-	test()
+	main()
