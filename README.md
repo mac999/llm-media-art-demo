@@ -265,6 +265,12 @@ def draw():
 run()
 ```
 
+### 5. arduino_gpt example
+To test Arduino agent powered by GPT or Ollama, run below. 
+```bash
+python arduino_gpt
+```
+
 ---
 
 ## Reference
