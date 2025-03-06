@@ -1,5 +1,4 @@
 ## Media Art Examples with Python
----
 This repository contains AI tool installation link, example code and resources for Media Art Study with LLM, focusing on creative coding, modeling, sound generation and physical computing using Python, LLM. The tools covered include **pygame**, **Sonic Pi (using `python-sonic`)**, **p5**, **Blender**, **Arduino** and **Ollama**.
 In reference, this is for the purpose of studying in A.DAT media art group, South Korea (2025.1). A.DAT is open media art group from 2014 and focuses on how to represent social message using emerging tech like Gen AI, Physical Computing, LLM, Sensor based on creative artist. </br>
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*3kNBB0E4xDwKiC1SQcYbhA.png" width=600><br>Prompt: Create sphere and cube around the sphere</br></img></br>
