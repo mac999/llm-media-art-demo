@@ -279,6 +279,11 @@ The parameters are
 - [Python과 node.js기반 데이터 분석 및 가시화](https://www.slideshare.net/slideshow/python-nodejs/252348474?from_search=2)
 - [NVIDIA cuda programming, open source and AI](https://www.slideshare.net/slideshow/nvidia-cuda-programming-open-source-and-ai/270372806?from_search=6)
 - [Docker 에서 Ollama, ComfyUI][https://www.youtube.com/watch?v=IxxOMLkcYNY]
+- [Chat with ChatGPT through Arduino IoT Cloud](https://projecthub.arduino.cc/dbeamonte_arduino/chat-with-chatgpt-through-arduino-iot-cloud-6b4ef0)
+- [chatGPT-Arduino-library](https://github.com/programming-electronics-academy/chatGPT-Arduino-library/tree/main)
+- [ChatGPT_Client_For_Arduino](https://github.com/0015/ChatGPT_Client_For_Arduino)
+- [I tried ChatGPT for Arduino - It’s Surprising](https://blog.wokwi.com/learn-arduino-using-ai-chatgpt/)
+- [Using ChatGPT to Write Code for Arduino and ESP32](https://dronebotworkshop.com/chatgpt/)
 
 ## License
 
