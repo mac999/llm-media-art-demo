@@ -266,7 +266,11 @@ run()
 ```
 
 ### 5. arduino_gpt example
-To test Arduino agent powered by GPT or Ollama, run below. 
+To test Arduino agent powered by GPT or Ollama, install the below
+```bash
+pip install subprocess pyserial requests
+```
+and run below. 
 ```bash
 python arduino_gpt.py
 ```
