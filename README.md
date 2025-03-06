@@ -278,6 +278,7 @@ The parameters are
 - prompt: prompt for arduino code generation
 - port: arduino port for uploading the generated code.
 ---
+<img src="https://github.com/mac999/llm-media-art-demo/blob/main/arduino.gif" width=600>
 
 ## Reference
 - [Python과 node.js기반 데이터 분석 및 가시화](https://www.slideshare.net/slideshow/python-nodejs/252348474?from_search=2)
