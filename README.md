@@ -11,6 +11,8 @@ By using these materials, you can make media art works with AI like below.
 <p align="center">
 <img height="300" src="https://github.com/mac999/thinking_machine/blob/main/object.png" />
 </p>
+
+
 ## Overview
 
 This project is designed for students and enthusiasts exploring **Media Art** through creative coding and interactive audio-visual art. Below are the main libraries and tools used in this repository:
