@@ -298,6 +298,14 @@ The parameters are
 - [I tried ChatGPT for Arduino - It’s Surprising](https://blog.wokwi.com/learn-arduino-using-ai-chatgpt/)
 - [Using ChatGPT to Write Code for Arduino and ESP32](https://dronebotworkshop.com/chatgpt/)
 
+## Collaboration & Research
+
+This repository is part of my ongoing work on AI, LLMs, and Transformer-based architectures.
+I am open to research collaboration, academic exchange, and joint projects with universities, public institutions, company and research labs.
+
+For collaboration inquiries, please feel free to reach out:
+📧 [laputa99999@gmail.com] | 🌐 [[LinkedIn or Personal Website](https://www.linkedin.com/feed/)]
+
 ## License
 
 This repository is licensed under the MIT License. You are free to use, modify, and distribute the code for personal or commercial projects.
