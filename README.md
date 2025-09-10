@@ -4,7 +4,7 @@ In reference, this is for the purpose of studying in A.DAT media art group, Sout
 <p align="center">
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*3kNBB0E4xDwKiC1SQcYbhA.png" width=600><br>Prompt: Create sphere and cube around the sphere</br></img></br>
 <img src="https://github.com/mac999/llm-media-art-demo/blob/main/openg_anime.gif" width=600><br>Prompt: Create cubes grid with color (temperature) and height (energy) after reading input.csv including bulidings dataset with temperature, energy using pandas</br></img>
-<img src="https://github.com/mac999/llm-media-art-demo/blob/main/ai_art.png" width=600></br>
+<img src="https://github.com/mac999/llm-media-art-demo/blob/main/ai_art.png" width=600><br>Arduino with LLM project</br></img>
 </p>
 
 By using these materials, you can make media art works with AI like below. 
